@@ -109,4 +109,3 @@
 2. standard output (STDOUT) 代號 1：標準輸出，預設為終端機視窗
 
 3. standard error (STDERR) 代號 2：標準錯誤輸出，預設為終端機視窗
-
