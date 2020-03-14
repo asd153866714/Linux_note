@@ -27,9 +27,9 @@
 
 * Linux :
 
-    - `echo` : 反映指令, 打什麼就傳回什麼
+    - `echo` : 反映指令, 打什麼就回應什麼
     
-    - `echo hello (在此省略"1") > Desktop/1.txt` : 建立內文為hello的文本
+    - `echo hello > Desktop/1.txt` : 輸出到桌面文字檔案 (內文為hello)
     
     - `Desktop/1.txt`:
     
