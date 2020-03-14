@@ -18,14 +18,14 @@
 ## 指令
 
 ### Windows : 
+ 
+* `ipconfig /all` : 查看網路卡資訊
 
-    * `ipconfig /all` : 查看網路卡資訊
+* `netstat -rn` : 查看網路卡資訊
 
-    * `netstat -rn` : 查看網路卡資訊
+* `netstat -an` : 查看實體機上哪些埠被打開
 
-    * `netstat -an` : 查看實體機上哪些埠被打開
-
-### Linux :
+* Linux :
 
     * `echo` : 反映指令, 打什麼就回應什麼
     
