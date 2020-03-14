@@ -32,15 +32,12 @@
 * `echo hello > Desktop/1.txt` : 輸出到桌面文字檔案 (內文為hello)
     
 * `Desktop/1.txt`:
-    
- * 若文字檔存在 -> 清空內容
-        
- * 若文字檔不存在 -> 建立文字檔
-    
+    * 若文字檔存在 -> 清空內容
+    * 若文字檔不存在 -> 建立文字檔
+
 * `ifconfig` : 查看網路卡資訊
     
-* **正確關機**
-    
+* **正確關機** 
  * `reboot` : 重啟
     
  * `halt-p`
@@ -58,7 +55,6 @@
 * `systemctrl status 伺服器名稱(E.g.ssh)d` : 檢查伺服器狀態
 
 * `netstat -tulnp | grep 22` :
-
  * `t`: 檢查TCP連線
 
  * `u`: 檢查UDP連線
