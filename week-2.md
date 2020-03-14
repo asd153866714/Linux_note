@@ -27,6 +27,14 @@
 
 ### Linux :
 
+* **正確關機** 
+
+  * `reboot` : 重啟
+
+  * `halt-p`
+
+  * `power off`
+
 * `echo` : 反映指令, 打什麼就回應什麼
     
 * `echo hello > Desktop/1.txt` : 輸出到桌面文字檔案 (內文為hello)
@@ -36,14 +44,7 @@
   * 若文字檔不存在 -> 建立文字檔
 
 * `ifconfig` : 查看網路卡資訊
-    
-* **正確關機** 
-  * `reboot` : 重啟
 
-  * `halt-p`
-
-  * `power off`
-    
 * `su` : 切換為系統管理員(在Linux中為`root`,提示符號為 `#`,若身分為`user`則為 `$`)
     
 * `yum install` : 安裝軟體指令
@@ -93,7 +94,7 @@
 
    * centos和windows可互相看到，但centos不能看到Iternet上的機器。
    
-3. `Bridge`:橋切設定
+3. `Bridge`:橋接設定
 
    * 一般不會開，除非要測試。
 
