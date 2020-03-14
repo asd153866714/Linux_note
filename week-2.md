@@ -17,4 +17,5 @@
 
 ## 指令
 
-### windows
+* Windows :
+** Linux :
