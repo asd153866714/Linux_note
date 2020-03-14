@@ -14,3 +14,7 @@
   * 原為Oracle公司,後被Red Hat收購,隨後被IBM收購
 
 * Hyper-V
+
+## 指令
+
+### 
