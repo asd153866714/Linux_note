@@ -92,7 +92,7 @@
 
 2. `Host-only模式`
 
-   * centos和windows可互相看到，但centos不能看到Iternet上的機器。
+   * centos和windows可互相看到，但centos不能看到Internet上的機器。
    
 3. `Bridge`:橋接設定
 
