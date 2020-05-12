@@ -31,9 +31,9 @@
  
  * 讓 PATH 變數永遠生效 : 
  
-  1. 到家目錄 cd ..
-  2. `gedit .bashrc` 編輯
-  3. 加上 `export PATH=$PATH:/home/user/exec`
+   1. 到家目錄 cd ..
+   2. `gedit .bashrc` 編輯
+   3. 加上 `export PATH=$PATH:/home/user/exec`
 
 * `df -h` : 顯示磁碟分割區， -h 顯示單位
 
