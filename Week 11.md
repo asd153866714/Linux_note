@@ -1,4 +1,4 @@
-# 連結
+# 5-1-4 連結
 
 ### 符號連結 :
 
@@ -18,6 +18,27 @@
   * inode 相同
 
 * **課本 5-8 表格 期末必考**
+
+### 5-1-5 Linux 的執行檔 :
+
+* 附檔名沒有特別規定( 只要有 Execute 權限 )
+
+### 環境變數
+
+ * `echo $PATH` : 顯示 PATH 變數
+ 
+ * `export PATH=$PATH:/home/user/exec` : 加入 PATH 變數
+ 
+ * 讓 PATH 變數永遠生效 : 
+ 
+  1. 到家目錄 cd ..
+  2. `gedit .bashrc` 編輯
+  3. 加上 `export PATH=$PATH:/home/user/exec`
+
+* `df -h` : 顯示磁碟分割區， -h 顯示單位
+
+* `du` : 
+
 
 # 雜記
 
@@ -41,7 +62,6 @@
  * `lsattr` 
   https://www.runoob.com/linux/linux-comm-lsattr.html
  
- * `df -h` : 顯示磁碟分割區
  
  * `file` : 顯示檔案或指令詳細資訊
  
