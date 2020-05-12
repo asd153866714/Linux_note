@@ -2,7 +2,7 @@
 
 寫腳本用 Line 做測試
 
-```
+``` powershell
 smallko, [05.05.20 09:40] #1234
 #!/bin/bash
 # LINE Notify Token - Media > "Send to".
