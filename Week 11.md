@@ -62,7 +62,7 @@
  
  * `lsattr` 
   
-  參考 : https://www.runoob.com/linux/linux-comm-lsattr.html
+  * 參考 : https://www.runoob.com/linux/linux-comm-lsattr.html
  
  
  * `file` : 顯示檔案或指令詳細資訊
