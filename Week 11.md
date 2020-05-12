@@ -58,11 +58,11 @@
   
  * `stat 1` : 查詢檔案詳細資料 (使用，修改，建立)
   
-  * 參考 : https://www.itread01.com/content/1543589762.html
+   * 參考 : https://www.itread01.com/content/1543589762.html
  
  * `lsattr` 
   
-  * 參考 : https://www.runoob.com/linux/linux-comm-lsattr.html
+   * 參考 : https://www.runoob.com/linux/linux-comm-lsattr.html
  
  
  * `file` : 顯示檔案或指令詳細資訊
