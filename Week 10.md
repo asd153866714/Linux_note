@@ -36,3 +36,7 @@ chmod +x line.sh
 
 ./line.sh test hello
 ```
+
+### 沒安裝 GuestAdditon 要複製文字到虛擬機
+
+  * 用 Putty 或 WinSCP
