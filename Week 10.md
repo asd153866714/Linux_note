@@ -1,10 +1,11 @@
 # 作業
 
-寫腳本用 Line 做測試
+* 寫腳本用 Line 做測試 :
 
 ``` bash
 
 gedit line.sh &
+
 -----------------------------------------
 # line.sh 的內容 :
 
@@ -20,6 +21,7 @@ message="$2"
 
 curl https://notify-api.line.me/api/notify -H "Authorization: Bearer ${TOKEN}" -d "message=${message}"
 ------------------------------------------
+
 chmod +x line.sh
 
 ./line.sh test hello
