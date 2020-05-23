@@ -56,5 +56,21 @@
 
 * ping.sh 腳本測試 ping 的結果，只會顯示成功或失敗
 
+```
+chmod +x ping.sh
+gedit ping.sh
+----------------------------
+#!/usr/bin/bash
+
+ip=$1
+$(ping -c 1 -W 1 $ip &> /dev/null)
+result=$(echo $?)
+if [ $result -eq 0 ]; then
+  echo "ping ok"
+else
+  echo "ping fail"
+fi
+```
+
 ![image](ping.sh.jpg)
 
