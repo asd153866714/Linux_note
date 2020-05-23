@@ -27,17 +27,15 @@
 
 * `whereis ifconfig` 用完整檔名搜尋，獲得檔案位置
 
-* `find` :
+* `find` **期末考**:
 
   * `find /home -name jack` 搜尋 /home 目錄下檔名為 jack 的檔案
   
   * `find /home -iname jack` 不分大小寫
   
-  * `find /home -name "*.txt"` "\*" 為通配符號 
+  * `find /home -name "*.txt"` "\*" 為通配符號 (0~多個字元.txt)
   
-    1. \*
-    2. ?
-    3. []
+    * [Linux 通配符用法](https://blog.csdn.net/magi1201/article/details/76065370)
   
   * `find . -type f -name a` "-type"為檔案類型 
   
@@ -53,3 +51,7 @@
   * `find . -mtime -7 ` 7天內有修改過的檔案
   
   * `find . -size +5M ` 大於 5MB 的檔案
+  
+# 作業
+
+
