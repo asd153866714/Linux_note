@@ -37,6 +37,8 @@
 
 * `df -h` : 顯示磁碟分割區， -h 顯示單位
 
+* `df -h | gep /dev/shm | awk {'print $4'}` | tr "M" "" ` 只取第四個參數，去掉單位 MB
+
 * `du` : 
 
 
