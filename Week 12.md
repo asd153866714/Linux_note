@@ -61,6 +61,7 @@ chmod +x ping.sh
 gedit ping.sh
 ---------------------------------
 # ping.sh 的內容:
+
 #!/usr/bin/bash
 
 ip=$1
