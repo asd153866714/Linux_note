@@ -54,4 +54,7 @@
   
 # 作業
 
+* ping.sh 腳本測試 ping 的結果，只會顯示成功或失敗
+
+![image](ping.sh.jpg)
 
