@@ -12,7 +12,7 @@
 
 * 變動備份過的檔案
 
-* `tar cvfz backup-0930.tar.gz `find /home/testdir -cnewer /home/testdir/timebase -type f` `用 find 指令找出在時間戳章之後變動的檔案，並備份
+* `tar cvfz backup-0930.tar.gz \`find /home/testdir -cnewer /home/testdir/timebase -type f\` `用 find 指令找出在時間戳章之後變動的檔案，並備份
 
 * `ls backup-0925.tar.gz    vs     ls backup-0930.tar.gz` 比較差異備份的檔案 
 
