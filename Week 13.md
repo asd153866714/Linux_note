@@ -49,5 +49,10 @@ ls backup-0930.tar.gz
 
 ### 文字編輯器 vim
 
+* `yum install vim` 安裝
+
+* `vim file` 開啟檔案
+
+* 
 
 # 作業
