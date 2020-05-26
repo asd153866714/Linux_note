@@ -38,6 +38,8 @@ ls backup-0930.tar.gz
 
 * `grep -A 1 -B 1 -n user /etc/passwd` "-A", "-B" -> After, Before : 顯示的結果加上前後兩行
 
+參考 : Linux 匹配文字 grep 指令用法教學與範例 -- https://github.com/asd153866714/Linux_note/blob/master/Week%2012.md
+
 ### 正則表達式
 
 * `grep -n ^user /etc/passwd` "^user" 顯示以 user 開頭的內容
@@ -53,6 +55,8 @@ ls backup-0930.tar.gz
 
 * `vim file` 開啟檔案
 
-* 
+* 編輯模式 : 按下 i, o, a
+
+* 命令模式 : 按下 :
 
 # 作業
