@@ -74,5 +74,5 @@ else
 fi
 ```
 
-![image](ping.sh.jpg)
+![image](image/ping.sh.jpg)
 
