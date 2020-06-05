@@ -29,6 +29,8 @@
 
 參考課本 6-5 頁
 
+[image](image/disk2.jpg)
+
 ### 掛載 FAT32 USB
 
 參考課本 6-14 頁
