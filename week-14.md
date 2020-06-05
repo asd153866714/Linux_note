@@ -29,7 +29,7 @@
 
 參考課本 6-5 頁
 
-[image](image/disk2.jpg)
+![image](image/disk2.jpg)
 
 ### 掛載 FAT32 USB
 
