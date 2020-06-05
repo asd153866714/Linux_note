@@ -61,6 +61,25 @@ ls backup-0930.tar.gz
 
 ### ch6 硬體設備管理
 
+```
+[root@centos7 conf]# lsblk
+NAME            MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda               8:0    0   10G  0 disk 
+├─sda1            8:1    0    1G  0 part /boot
+└─sda2            8:2    0    9G  0 part 
+  ├─centos-root 253:0    0    8G  0 lvm  /
+  └─centos-swap 253:1    0    1G  0 lvm  [SWAP]
+sr0              11:0    1 73.6M  0 rom  /run/media/user/VBox_GAs_6.0.13
+```
+
+`mount -t iso9660 /dev/sr0 /run/media/user/` 將光碟從 /dev/sr0 掛載到 /run/media/user/
+
+
+`umount /run/media/user` 卸載
 
 
 # 作業
+
+### 增量備份
+
+最後用 tree 顯示
