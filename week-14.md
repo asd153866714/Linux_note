@@ -8,7 +8,7 @@
 
 `cat etc/passwd` 帳號資料
 
-`echo $SHELL` 查看帳號 shell **--期末**
+`echo $SHELL` 查看帳號 shell    **--期末**
 
 `cat /etc/passwd | grep ^user | awk -F: '{print $NF}'`
   
