@@ -12,5 +12,5 @@
 
 `cat /etc/passwd | grep ^user | awk -F: '{print $NF}'`
   
-                        |            |            |
-                        user開頭      :冒號分隔     印出最後一個
+                          |            |            |
+                          user開頭     :冒號分隔     印出最後一個
