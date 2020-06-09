@@ -13,5 +13,9 @@
 
 `cat /etc/passwd | grep 'nologin$' | awk -F: '{if($3 >= 1000){print $1}}' `
 
-`chmod `
+`chmod 777 a.txt` 修改權限
+
+`chown root:root a.txt` 修改擁有者和群組
+
+
  
