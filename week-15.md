@@ -4,7 +4,7 @@
 
 `usermod -g mike` 修改主要群組
 
-`chsh tom` 修改 shell
+* `chsh tom` 修改 shell
 
   `/sbin/nologin` 禁止登入
 
