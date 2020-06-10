@@ -2,7 +2,7 @@
 
 * `userdel -r mike` 刪除帳號和使用者家目錄 **-- 期末**
 
-* `usermod -g mike` 修改主要群組
+* `usermod -g mike` 修改主要群組 **-- 期末**
       
 |選項|用法| 
 |---|---|
@@ -23,9 +23,9 @@
 
 * `cat /etc/passwd | grep 'nologin$' | awk -F: '{if($3 >= 1000){print $1}}' ` 列出無法登入的 user
 
-`chmod 777 a.txt` 修改權限
+* `chmod 777 a.txt` 修改權限
 
-`chown root:root a.txt` 修改擁有者和群組
+* `chown root:root a.txt` 修改擁有者和群組
 
 # 雜記
 
