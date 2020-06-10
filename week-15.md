@@ -6,7 +6,7 @@
 
 * `chsh tom` 修改 shell
 
-  `/sbin/nologin` 禁止登入
+    * `/sbin/nologin` 禁止登入
 
 * `cat /etc/passwd | grep 'bash$' | grep -v root | awk -F: '{print $1}' ` 列出可登入的 user (扣除 root)
 
