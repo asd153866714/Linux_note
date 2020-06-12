@@ -27,7 +27,7 @@
 
 * `chown root:root a.txt` 修改擁有者和群組
 
-# 雜記
+# 補充
 
 ### sed
 
