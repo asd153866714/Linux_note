@@ -1,3 +1,5 @@
+# 上課內容
+
 ### 指令的輸出入
 
 編號 | 訊息
@@ -27,7 +29,14 @@
 
 * `whereis ifconfig` 用完整檔名搜尋，獲得檔案位置
 
+* `locate ifconf` 用部分名稱查詢
+
+  * 從資料庫內搜尋
+  * 先用 `updatedb` 更新資料庫後再開始搜尋
+
 * `find` **期末考**:
+  
+  * 直接在系統內搜尋檔案
 
   * `find /home -name jack` 搜尋 /home 目錄下檔名為 jack 的檔案
   
@@ -64,7 +73,7 @@ gedit ping.sh
 
 #!/usr/bin/bash
 
-ip=$1
+ip=$1  
 $(ping -c 1 -W 1 $ip &> /dev/null)
 result=$(echo $?)
 if [ $result -eq 0 ]; then
