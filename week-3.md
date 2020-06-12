@@ -79,7 +79,7 @@
 
     * `echo "hi" > /var/www/html/hi.htm`:將文字輸出到網頁，/var/www/html/hi.htm為網頁根目錄，">"為 "導向" 之意。
 
-      ![](https://github.com/ayd0122344/Linux-note/blob/master/%E5%9C%96%E6%AA%94/%E5%B0%87%E6%96%87%E5%AD%97%E8%BC%B8%E5%87%BA%E5%88%B0%E7%B6%B2%E9%A0%81.jpg)
+      ![](image/httpd.jpg)
 
     * `yum install http -y --nogpgcheck`:解決簽證問題。
 
