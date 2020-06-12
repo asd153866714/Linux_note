@@ -90,5 +90,5 @@
    * ctrl+e: 可跳到目前正在輸入的指令最後方。
    
 # 作業
-
+* 架設 http server :
 ![](image/httpd.jpg)
