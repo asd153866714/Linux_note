@@ -79,8 +79,6 @@
 
     * `echo "hi" > /var/www/html/hi.htm`:將文字輸出到網頁，/var/www/html/hi.htm為網頁根目錄，">"為 "導向" 之意。
 
-      ![](image/httpd.jpg)
-
     * `yum install http -y --nogpgcheck`:解決簽證問題。
 
     * `systemctl stop firewalld`:關閉 防火牆
@@ -93,4 +91,4 @@
    
 # 作業
 
-![](https://github.com/ayd0122344/Linux-note/blob/master/%E5%9C%96%E6%AA%94/%E7%AC%AC%E4%B8%89%E5%91%A8%E7%B5%90%E6%9E%9C.jpg)
+![](image/httpd.jpg)
