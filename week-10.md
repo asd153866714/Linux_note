@@ -1,6 +1,33 @@
+# 上課內容
+
+### 沒安裝 GuestAdditon 要複製文字到虛擬機
+
+* 用 Putty 或 WinSCP
+
+### 腳本
+
+* test.sh :
+```
+#!/bin/bash
+let result = $1 + $2
+echo $1 "+" $2 "=" $result
+```
+* `./test.sh 2 3` 輸出 2 + 3 =8
+
+### curl 
+
+* `curl -- connect-timeout 1 192.116.60.133 ` 設置超時時間
+  
+* `後面加上 &> dev/null` 輸出結果導入黑洞，不會顯示
+
+* `echo $?` 
+  
+  * 傳回 0 => 伺服器正常運作
+  * 非 0 => 不正常
+
 # 雜記
 
-### 作業
+# 作業
 
 * 寫腳本用 Line 做測試 : 
   
@@ -36,7 +63,3 @@ chmod +x line.sh
 
 ./line.sh test hello
 ```
-
-### 沒安裝 GuestAdditon 要複製文字到虛擬機
-
-  * 用 Putty 或 WinSCP
