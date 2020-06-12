@@ -35,6 +35,10 @@ echo $1 "+" $2 "=" $result
 
 * `top` 工作管理員
 
+* `cat /proc/meminfo` 更詳細的記憶體使用資訊
+
+* `cat /pro/cpuinfo` 顯示 cpu 詳細資訊
+
 # 作業
 
 * 寫腳本用 Line 做測試 : 
