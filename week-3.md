@@ -1,17 +1,12 @@
 # 上課內容
 
-### 網頁除錯
+### 瀏覽器聯網失敗
 
 1. ping 127.0.0.1
-
-2. ping 自己的IP位址 (由ipconfig查找)
-
+2. ping 自己的IP位址 (由 ipconfig 查找)
 3. ping 內定路由位址 (由`ip route show`查找)
-
 4. ping 8.8.8.8 (成功的話代表網路暢通)
-
 5. ping www.nqu.edu.tw(任意網址)
-
 * 如果第4點到第5點失敗的話代表 DNS 解析出問題
 
     * 解決方案: 輸入`gedit/etc/resolve.conf`來更改設定檔 (要先用su切換成root)。
@@ -30,9 +25,9 @@
 
    * `yum upgrade -y`: 將系統軟體更新。
 
-    * `clear`: 清除終端機屏幕。
+   * `clear`: 清除終端機屏幕。
 
-    * 查詢系統核心:
+   * 查詢系統核心:
 
        * `uname`: 顯示作業系統 (Linux)。
 
@@ -44,18 +39,7 @@
 
     * `sudo yum install gcc -y`: "sudo"以超級使用者執行此行命令，執行完後身分回到user，在此為安裝gcc的動作。
 
-    * 在Linux終端機中執行C語言程式
-
-      * `cat test.c` : concatenate，顯示文件內容。
-
-      * `cat tset.c | head -n 2`: 顯示前兩行。
-
-      * `cat tset.c | head -n 2 |tail -n 1`: 顯示文件的前兩行的最後一行。
-
-      * `cat tset.c | head -n 2 |tail -n 1 | awk '{print $2}'`: 顯示文件的前兩行的最後一行的第二段。
-
-
-    * `chmod`-change mode-Linux中使用此指令可將文字檔變成執行檔。
+    * `chmod`-change mode-Linux 中使用此指令可將文字檔變成執行檔。
 
       * `chmod -x`: 拿掉執行此檔案的權限。
 
@@ -65,11 +49,7 @@
 
       * `chmod +r`: 賦予讀取此檔案的權限 (read)。
 
-    * `file 檔名(如a.out)`
-
-      * 使用此指令可檢閱檔案的本質。
-
-      * 在Linux中不可以只憑副檔名就判斷檔案的本質。
+    * `file a.out` 檢視此檔案詳細資料
 
     * 確認伺服器是否開啟的兩個方法: 
 
@@ -88,6 +68,22 @@
    * ctrl+a: 可跳到目前正在輸入的指令最前方。
    
    * ctrl+e: 可跳到目前正在輸入的指令最後方。
+### 寫 C 語言程式
+* `vim test.c`
+
+* `gcc file.c` 預設編譯為 a.out 
+
+* `./a.out` 執行
+
+* `cat test.c` 顯示文件內容
+
+* `cat test.c` : concatenate，顯示文件內容。
+
+* `cat tset.c | head -n 2`: 顯示前兩行。
+
+* `cat tset.c | head -n 2 |tail -n 1`: 顯示文件的前兩行的最後一行。
+
+* `cat tset.c | head -n 2 |tail -n 1 | awk '{print $2}'`: 顯示文件的前兩行的最後一行的第二段。
    
 # 作業
 * 架設 http server :
