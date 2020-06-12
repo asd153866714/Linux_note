@@ -1,4 +1,6 @@
-# ch7 使用者帳號管理
+# 上課內容
+
+### ch7 使用者帳號管理
 
 `groupadd rd` 新增使用者群組 "rd"
 
@@ -19,7 +21,7 @@
 
 `useradd -g user jack` 建立新帳號 jack 並加入 user 群組
 
-# 雜記
+# 補充
 
 ### awk 
 
