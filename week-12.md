@@ -73,7 +73,7 @@ gedit ping.sh
 
 #!/usr/bin/bash
 
-ip=$1  
+ip=$1                                 #123
 $(ping -c 1 -W 1 $ip &> /dev/null)
 result=$(echo $?)
 if [ $result -eq 0 ]; then
