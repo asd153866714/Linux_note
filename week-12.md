@@ -66,21 +66,23 @@
 * ping.sh 腳本測試 ping 的結果，只會顯示成功或失敗
 
 ```
-chmod +x ping.sh
-gedit ping.sh
+chmod +x ping.sh                        // 新增可執行權限
+gedit ping.sh                           // 編輯
 ---------------------------------
 # ping.sh 的內容:
 
 #!/usr/bin/bash
 
-ip=$1                                 #123
-$(ping -c 1 -W 1 $ip &> /dev/null)
-result=$(echo $?)
+ip=$1                                   // 取第一個參數 (IP)
+$(ping -c 1 -W 1 $ip &> /dev/null)      // -W timeout時間1秒、不要ping的內容，丟到null
+result=$(echo $?)                       // 把echo $?的執行結果丟到result
 if [ $result -eq 0 ]; then
   echo "ping ok"
 else
   echo "ping fail"
 fi
+---------------------------------
+./ping.sh 8.8.8.8                        // 執行
 ```
 
 ![image](image/ping.sh.jpg)
